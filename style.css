@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(0deg,rgb(22, 42, 226),rgb(2, 126, 179));
+    margin: 0;
+}
+.head {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+#mtn {
+    background-color: rgb(240, 240, 16);
+}
+#airtel {
+    background-color: rgb(255, 64, 64);
+}
+.mtn, .airtel {
+    border: 1px solid rgb(80, 72, 72);
+    padding: 15px;
+    margin: auto;
+    border-radius: 20px;
+    width: fit-content;
+    background-color: white;
+}
+.data {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 100%; 
+}
+footer {
+    background: linear-gradient(90deg,rgb(197, 200, 219),rgb(90, 96, 99));
+    margin-top: 20px;
+    text-align : center;
+}
+.fa {
+    padding: 5px;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50px;
+    border: 1px solid rgb(7, 29, 231); 
+    color: rgb(22, 42, 226); 
+    font-weight: 700;  
+}
+a:hover {
+    color: rgb(27, 29, 29);
+}
+.footer {
+   padding: 15px;
+   margin-bottom: 10px;
+}
+.validity {
+    color: rgb(32, 20, 202);
+    font-weight: 900;
+}
+.copyright {
+    font-size: 12px;
+}
