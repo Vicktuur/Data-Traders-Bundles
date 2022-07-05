@@ -37,7 +37,7 @@ tr:nth-child(even) {
 }
 .data {
     display: flex;
-    gap: 20px;
+    gap: 5px;
     align-items: center;
     width: 100%; 
 }
